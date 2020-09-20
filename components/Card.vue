@@ -1,42 +1,66 @@
 <template>
-  <div class="column">
+  <div class="column is-half-tablet is-one-third-desktop mt-6">
     <div class="card">
-      <header class="card-header">
-        <p class="card-header-title has-text-grey">
-          {{ title }}
-        </p>
-      </header>
+      <div class="card-image">
+        <figure class="image is-square">
+            <img :src="require(`~/assets/images/${eventCover}`)" alt="Image de couverture de l'evenement">
+        </figure>
+      </div>
+
       <div class="card-content">
-        <div class="content has-text-centered">
-          <b-icon
-            :icon="icon"
-            size="is-large"
-            type="is-primary"
-          />
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-48x48">
+              <img :src="require(`~/assets/images/${eventThumb}`)" alt="Image miniature de l'evenement">
+            </figure>
+          </div>
+          <div class="media-content">
+            <p class="title is-4">{{eventTitle}}</p>
+            <p class="subtitle is-6">avec <span class="has-text-weight-medium">{{eventAnimator}}</span></p>
+          </div>
+        </div>
+
+        <div class="content">
+          <div>{{eventDesc}}</div>
+          <div class="has-text-right mt-2">
+              <b-button tag="a"
+                  href="https://discord.com/invite/CKZcKqf"
+                  target="_blank"
+                  type="is-info">
+                  <span class="mr-2">Participer</span>
+                  <b-icon icon="open-in-new"></b-icon>
+              </b-button>
+          </div>
         </div>
       </div>
-      <footer class="card-footer">
-        <div class="card-footer-item">
-          <span>
-            <slot />
-          </span>
-        </div>
-      </footer>
     </div>
   </div>
+  
 </template>
 
 <script>
 export default {
   props: {
-    title: {
+    eventTitle: {
       type: String,
       required: true
     },
-    icon: {
+    eventAnimator: {
       type: String,
       required: true
-    }
+    },
+     eventDesc: {
+      type: String,
+      required: true
+    },
+    eventCover: {
+      type: String,
+      required: true
+    },
+    eventThumb: {
+      type: String,
+      required: true
+    },
   }
 }
 </script>

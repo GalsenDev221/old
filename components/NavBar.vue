@@ -16,10 +16,10 @@
             <b-navbar-item href="#">
                 A Propos
             </b-navbar-item>
-            <b-navbar-item href="#">
+            <b-navbar-item href="#events">
                 Événements
             </b-navbar-item>
-            <b-navbar-item href="#">
+            <b-navbar-item href="#contact">
                 Contact
             </b-navbar-item>
             <b-navbar-item tag="div">
