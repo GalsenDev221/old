@@ -1,8 +1,9 @@
 <template>
     <section>
         <NavBar></NavBar>
-        <Hero></Hero>
         <Slider></Slider>
+        <Hero></Hero>
+        <Footer></Footer>
     </section>
 </template>
 
@@ -10,13 +11,17 @@
 import NavBar from '~/components/NavBar'
 import Slider from '~/components/Slider'
 import Hero from '~/components/Hero'
+import Footer from '~/components/Footer'
+/* import ContactForm from '~/components/ContactForm' */
 
 export default {
   name: 'GalsenDev',
   components: {
       NavBar,
       Slider,
-      Hero
+      Hero,
+
+      Footer
   }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <b-navbar>
+    <b-navbar class="navbar is-fixed-top">
         <template slot="brand">
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 <img
@@ -8,19 +8,18 @@
                 >
             </b-navbar-item>
         </template>
-
         <template slot="end">
             <b-navbar-item href="#">
-                Acceuil
+                <strong>Acceuil</strong>
             </b-navbar-item>
             <b-navbar-item href="#">
-                A Propos
+                <strong>A Propos</strong>
             </b-navbar-item>
             <b-navbar-item href="#">
-                Événements
+                <strong>Événements</strong>
             </b-navbar-item>
             <b-navbar-item href="#">
-                Contact
+                <strong>Contact</strong>
             </b-navbar-item>
             <b-navbar-item tag="div">
                 <div class="buttons">
