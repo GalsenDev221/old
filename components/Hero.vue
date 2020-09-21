@@ -6,7 +6,8 @@
             <h2 class="is-size-2">Galsen Dev</h2>
             <br />
             <p class="is-size-5">
-              Galsen Dev est une communauté de développeurs sénégalais et de personnes travaillant autour de la programmation  au Sénégal et nous avons aussi pour objectif de vulgariser la programmation partout au dans le pays et d'aider les débutants et les personnes désireux de rejoindre notre domaine à s'améliorer graduellement.
+              Galsen Dev est une communauté qui regroupe les développeurs sénégalais dans le but de mettre en place un écosystème favorable à la création et au paratage en développeur et de vulgariser la programmation partout au Sénégal. <br>
+              Nous nous fixons aussi pour objectif d'aider les débutants et les personnes désireux de rejoindre le domaine de la programmation.
             </p>
             <br />
             <br />
@@ -18,7 +19,7 @@
           </div>
           <div class="column is-offset-1 is-6">
             <figure class="image is-3by2">
-              <img src="../assets/images/developers-code.svg" class="" alt="Movie Night Illustration" />
+              <img src="../assets/images/developers-code.svg" alt="Developers Code" />
             </figure>
           </div>
           <br />

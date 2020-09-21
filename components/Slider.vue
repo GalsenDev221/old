@@ -17,9 +17,7 @@ export default {
             carousels: [
                 { text: 'Slide 1', color: 'primary' },
                 { text: 'Slide 2', color: 'info' },
-                { text: 'Slide 3', color: 'success' },
-                { text: 'Slide 4', color: 'warning' },
-                { text: 'Slide 5', color: 'danger' }
+                { text: 'Slide 3', color: 'success' }
             ]
         }
     }
