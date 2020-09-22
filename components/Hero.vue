@@ -4,18 +4,11 @@
         <div class="columns is-vcentered">
           <div class="column is-5">
             <h2 class="is-size-2">Galsen Dev</h2>
-            <br />
+            <br/>
             <p class="is-size-5">
-              Galsen Dev est une communauté qui regroupe les développeurs sénégalais dans le but de mettre en place un écosystème favorable à la création et au paratage en développeur et de vulgariser la programmation partout au Sénégal. <br>
+              Galsen Dev est une communauté qui regroupe les développeurs sénégalais dans le but de mettre en place un écosystème favorable à la création et au paratage entre développeur et de vulgariser la programmation partout au Sénégal. <br>
               Nous nous fixons aussi pour objectif d'aider les débutants et les personnes désireux de rejoindre le domaine de la programmation.
             </p>
-            <br />
-            <br />
-            <div class="has-text-centered">
-              <b-button size="is-large" icon-right="github-circle" @click="goToRepo()">
-                Rejoindre
-              </b-button>
-            </div>
           </div>
           <div class="column is-offset-1 is-6">
             <figure class="image is-3by2">

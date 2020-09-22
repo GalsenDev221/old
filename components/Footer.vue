@@ -2,18 +2,8 @@
   <footer class="footer">
   <div class="content has-text-centered">
     <p>
-      Copyright &copy; 2020, Tous Droits Réservés
+      Fait avec 💚 by <strong><a href="https://github.com/Galsen-Dev-LAB" target="_blank">Galsen Dev LAB 💜</a></strong> | Copyright &copy; 2020, Tous Droits Réservés.
     </p>
   </div>
 </footer>
 </template>
-
-<script>
-export default {
-
-}
-</script>
-
-<style>
-
-</style>
