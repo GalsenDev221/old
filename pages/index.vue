@@ -1,11 +1,11 @@
 <template>
     <section>
-        <NavBar></NavBar>
-        <Hero></Hero>
-        <Slider></Slider>
-        <Events />
-        <Contact />
-        <Footer />
+        <NavBar/>
+        <Hero/>
+        <Slider/>
+        <Events/>
+        <Contact/>
+        <Footer/>
     </section>
 </template>
 
@@ -33,5 +33,8 @@ export default {
 <style>
 html {
     scroll-behavior: smooth;
+}
+body{
+    font-family: 'Advent Pro';
 }
 </style>
