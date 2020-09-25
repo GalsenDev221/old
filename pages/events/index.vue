@@ -1,5 +1,5 @@
 <template>
-  <section class="section" id="events">
+  <section class="section is-medium">
     <div class="container">
         <div class="has-text-centered">
             <h2 class="title is-2">Nos Evenements</h2>
@@ -17,9 +17,6 @@
                 :eventCover="event.coverImg"
                 :eventDesc="event.description"
             />
-        </div>
-        <div class="has-text-centered mt-6">
-          <b-button tag="nuxt-link" to="/events" type="is-light" size="is-medium">En voir plus</b-button>
         </div>
     </div>
   </section>
@@ -59,6 +56,23 @@ export default {
             coverImg: 'event2-cover.jpg',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam vitae facere repudiandae deleniti debitis.',
           },
+          {
+            id: '4',
+            title: 'Jakaarlo Dev',
+            animator: 'Alioune Kanoute',
+            thumbImg: 'event1-thumb.jpg',
+            coverImg: 'event3-cover.jpg',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam vitae facere repudiandae deleniti debitis.',
+          },
+          {
+            id: '5',
+            title: 'Jakaarlo Dev',
+            animator: 'Joe Diouf',
+            thumbImg: 'event1-thumb.jpg',
+            coverImg: 'event4-cover.jpg',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam vitae facere repudiandae deleniti debitis.',
+          },
+
         ]
       }
     }
