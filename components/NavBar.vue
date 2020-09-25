@@ -10,7 +10,7 @@
         </template>
 
         <template slot="end">
-            <b-navbar-item class="bt-m" href="#">
+            <b-navbar-item class="bt-m" tag="router-link" :to="{ path: '/' }">
                 Acceuil
             </b-navbar-item>
             <b-navbar-item class="bt-m" href="#">
