@@ -19,7 +19,7 @@
             />
         </div>
         <div class="has-text-centered mt-6">
-          <b-button tag="nuxt-link" to="/events" type="is-light" size="is-medium">En voir plus</b-button>
+          <b-button tag="nuxt-link" to="/events" type="is-primary" size="is-medium">En voir plus</b-button>
         </div>
     </div>
   </section>

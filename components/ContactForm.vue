@@ -1,10 +1,10 @@
 <template>
   <section class="section">
     <div class="container">
-      <div class="columns is-tablet">
+      <div class="columns is-variable is-8 is-tablet">
         <div class="column">
           <h2 class="title is-2">Prendre contact avec nous</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed asperiores aliquam et aspernatur, repudiandae, dicta quam repellendus quas tempora suscipit.</p>
+          <p>Pour tout complément d'informations, vous pouvez nous envoyer un message sur notre adresse email. Les personnes compétentes se chargeront de vous répondre dans les plus brefs délais.</p>
         </div>
         <div class="column">
           <form @submit.prevent="sendMail">
