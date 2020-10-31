@@ -22,13 +22,6 @@
             <b-navbar-item class="bt-m" href="#contact">
                 Contact
             </b-navbar-item>
-            <b-navbar-item tag="div">
-                <div class="buttons">
-                    <a class="button is-info">
-                        <strong>Ressources</strong>
-                    </a>
-                </div>
-            </b-navbar-item>
         </template>
     </b-navbar>
 </template>
