@@ -15,6 +15,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap" }
     ],
   },
@@ -43,5 +44,13 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+  },
+
+  // Buefy options here
+  // NB : I changed the icon-pack to FontAwesome because
+  // the material design icon CDN was inaccessible (maybe they have a problem w/ their servers)
+  buefy: {
+    materialDesignIconsHRef: '//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.min.css',
+    defaultIconPack: 'fas'
   }
 }

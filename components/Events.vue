@@ -10,7 +10,7 @@
         </div>
         <div class="columns is-variable is-8 is-tablet is-multiline">
             <Card
-                v-for="event in events" :key="event.id"
+                v-for="(event, i) in events" :key="i"
                 :eventTitle="event.title"
                 :eventAnimator="event.animator"
                 :eventThumb="event.thumbImg"
@@ -36,7 +36,6 @@ export default {
       return {
         events: [
           {
-            id: '1',
             title: 'Jakaarlo Dev',
             animator: 'Kossi Selome',
             thumbImg: 'event1-thumb.jpg',
@@ -44,7 +43,6 @@ export default {
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam vitae facere repudiandae deleniti debitis.',
           },
           {
-            id: '2',
             title: 'Virtual Barcamp',
             animator: 'Linux Senegal',
             thumbImg: 'event5-thumb.jpg',
@@ -52,7 +50,6 @@ export default {
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam vitae facere repudiandae deleniti debitis.',
           },
           {
-            id: '3',
             title: 'Live Coding',
             animator: 'Galsen Dev',
             thumbImg: 'event1-thumb.jpg',

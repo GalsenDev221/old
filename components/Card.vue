@@ -28,14 +28,14 @@
                   target="_blank"
                   type="is-info">
                   <span class="mr-2">Participer</span>
-                  <b-icon icon="open-in-new"></b-icon>
+                  <b-icon icon="external-link-alt" size="is-small"></b-icon>
               </b-button>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
+
 </template>
 
 <script>
