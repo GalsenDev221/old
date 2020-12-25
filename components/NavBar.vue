@@ -4,7 +4,7 @@
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 <img
                     src="../static/galsendev.png"
-                    alt="The home of senegalese developers!"
+                    alt="La maison des développeurs sénégalais!"
                 >
             </b-navbar-item>
         </template>
@@ -12,9 +12,6 @@
         <template slot="end">
             <b-navbar-item class="bt-m" tag="router-link" :to="{ path: '/' }">
                 Acceuil
-            </b-navbar-item>
-            <b-navbar-item class="bt-m" href="#">
-                A Propos
             </b-navbar-item>
             <b-navbar-item class="bt-m" href="#events">
                 Événements
