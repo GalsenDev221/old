@@ -7,15 +7,16 @@
           <p>Pour tout complément d'informations, vous pouvez nous envoyer un message sur notre adresse email. Les personnes compétentes se chargeront de vous répondre dans les plus brefs délais.</p>
         </div>
         <div class="column">
-          <form @submit.prevent="sendMail">
+          <form action="https://getsimpleform.com/messages?form_api_token=435d5cea78cb72201deed237d6dbecdd" method="POST">
+          <input type='hidden' name='redirect_to' value='https://github.com/' />
             <b-field>
-              <b-input placeholder="Nom" v-model="nom"></b-input>
+              <b-input placeholder="Nom" v-model="nom" name="name"></b-input>
             </b-field>
             <b-field>
-              <b-input placeholder="Email" v-model="email"></b-input>
+              <b-input placeholder="Email" v-model="email" name="email"></b-input>
             </b-field>
             <b-field>
-              <b-input placeholder="Message" type="textarea" v-model="message"></b-input>
+              <b-input placeholder="Message" type="textarea" v-model="message" name="message"></b-input>
             </b-field>
             <div class="has-text-right mt-6">
               <b-button tag="input"
@@ -31,19 +32,5 @@
 
 <script>
   export default {
-    data() {
-      return {
-        nom: '',
-        email: '',
-        message: ''
-      }
-    },
-    methods: {
-      sendMail() {
-        alert('mail sent')
-        // check if the email is valid
-        // check if the name & message is 3 min character
-      },
-    }
   }
 </script>
