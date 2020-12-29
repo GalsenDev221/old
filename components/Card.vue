@@ -16,7 +16,7 @@
           </div>
           <div class="media-content">
             <p class="title is-4">{{eventTitle}}</p>
-            <p class="subtitle is-6">avec <span class="has-text-weight-medium">{{eventAnimator}}</span></p>
+            <p class="subtitle is-6">sur <span class="has-text-weight-medium">{{eventAnimator}}</span></p>
           </div>
         </div>
 
@@ -24,10 +24,10 @@
           <div>{{eventDesc}}</div>
           <div class="has-text-right mt-2">
               <b-button tag="a"
-                  href="https://discord.com/invite/CKZcKqf"
+                  href="https://www.liinks.co/galsendev221"
                   target="_blank"
                   type="is-info">
-                  <span class="mr-2">Participer</span>
+                  <span class="mr-2">EN SAVOIR PLUS</span>
                   <b-icon icon="external-link-alt" size="is-small"></b-icon>
               </b-button>
           </div>

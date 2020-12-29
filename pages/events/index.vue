@@ -5,7 +5,7 @@
             <h2 class="title is-2">Nos Evenements</h2>
 
             <p class="subtitle is-5 custom-width mt-2">
-                Voici la liste des différents événements que propose la communauté
+                Voici la liste des différents événements et activités que propose la communauté
             </p>
         </div>
         <div class="columns is-variable is-8 is-tablet is-multiline">
@@ -35,44 +35,43 @@ export default {
           {
             id: '1',
             title: 'Jakaarlo Dev',
-            animator: 'Kossi Selome',
-            thumbImg: 'event1-thumb.jpg',
-            coverImg: 'event1-cover.jpg',
+            animator: 'Discord',
+            thumbImg: 'galsendev.png',
+            coverImg: 'jakaarlo-dev.png',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam vitae facere repudiandae deleniti debitis.',
           },
           {
             id: '2',
-            title: 'Virtual Barcamp',
-            animator: 'Linux Senegal',
-            thumbImg: 'event5-thumb.jpg',
-            coverImg: 'event5-cover.jpg',
+            title: 'Sunu DEV',
+            animator: 'tout nos réseaux sociaux.',
+            thumbImg: 'galsendev.png',
+            coverImg: 'sunu-dev.png',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam vitae facere repudiandae deleniti debitis.',
           },
           {
             id: '3',
-            title: 'Live Coding',
-            animator: 'Galsen Dev',
-            thumbImg: 'event1-thumb.jpg',
-            coverImg: 'event2-cover.jpg',
+            title: 'Battle DEV',
+            animator: 'Discord',
+            thumbImg: 'galsendev.png',
+            coverImg: 'battle-dev.png',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam vitae facere repudiandae deleniti debitis.',
           },
           {
             id: '4',
-            title: 'Jakaarlo Dev',
-            animator: 'Alioune Kanoute',
-            thumbImg: 'event1-thumb.jpg',
-            coverImg: 'event3-cover.jpg',
+            title: 'QUIZ du Samedi',
+            animator: 'Telegram',
+            thumbImg: 'galsendev.png',
+            coverImg: 'quiz-du-samedi.png',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam vitae facere repudiandae deleniti debitis.',
           },
           {
             id: '5',
-            title: 'Jakaarlo Dev',
-            animator: 'Joe Diouf',
-            thumbImg: 'event1-thumb.jpg',
-            coverImg: 'event4-cover.jpg',
+            title: 'Live Coding',
+            animator: 'Discord',
+            thumbImg: 'galsendev.png',
+            coverImg: 'live-coding.png',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam vitae facere repudiandae deleniti debitis.',
-          },
-
+          }
         ]
       }
     }
