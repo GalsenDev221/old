@@ -22,7 +22,7 @@
 
         <div class="content">
           <div>{{eventDesc}}</div>
-          <div class="has-text-right mt-2">
+          <div class="has-text-right mt-5">
               <b-button tag="a"
                   href="https://www.liinks.co/galsendev221"
                   target="_blank"
