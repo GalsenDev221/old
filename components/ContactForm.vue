@@ -32,5 +32,12 @@
 
 <script>
   export default {
+    data() {
+      return {
+        nom: '',
+        email: '',
+        message: ''
+      }
+    }
   }
 </script>
