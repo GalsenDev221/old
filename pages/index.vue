@@ -2,7 +2,7 @@
     <div>
       <Hero/>
       <Slider/>
-      <Events/>
+      <Activities/>
       <ContactForm />
       <Socials/>
     </div>

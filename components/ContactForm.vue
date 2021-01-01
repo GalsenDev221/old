@@ -4,11 +4,11 @@
       <div class="columns is-variable is-8 is-tablet">
         <div class="column">
           <h2 class="title is-2">Prendre contact avec nous</h2>
-          <p>Pour tout complément d'informations, vous pouvez nous envoyer un message sur notre adresse email. Les personnes compétentes se chargeront de vous répondre dans les plus brefs délais.</p>
+          <p>Vous pouvez contacter notre équipe se chargera de vous répondre dans les plus brefs délais.</p>
         </div>
         <div class="column">
           <form action="https://getsimpleform.com/messages?form_api_token=435d5cea78cb72201deed237d6dbecdd" method="POST">
-          <input type='hidden' name='redirect_to' value='https://github.com/' />
+          <input type='hidden' name='redirect_to' value='https://galsendev.com/' />
             <b-field>
               <b-input placeholder="Nom" v-model="nom" name="name"></b-input>
             </b-field>
@@ -32,12 +32,5 @@
 
 <script>
   export default {
-    data() {
-      return {
-        nom: '',
-        email: '',
-        message: ''
-      }
-    }
   }
 </script>

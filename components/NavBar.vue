@@ -13,8 +13,8 @@
             <b-navbar-item class="bt-m" tag="router-link" :to="{ path: '/' }">
                 Acceuil
             </b-navbar-item>
-            <b-navbar-item class="bt-m" href="#events">
-                Événements
+            <b-navbar-item class="bt-m" href="#activities">
+                Activités
             </b-navbar-item>
             <b-navbar-item class="bt-m" href="#contact">
                 Contact
