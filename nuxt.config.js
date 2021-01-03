@@ -11,7 +11,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      // Some meta tag for a better SEO
+      { hid: 'description', name: 'description', content: '' },
+      { property:'og:type', content:'website' },
+      { property:'og:url', content:'https://galsendev.com' },
+      { property:'og:description', content:'La maison des développeurs sénégalais!' },
+      { property:'og:image', content:'https://galsendev.com/static/share.png' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
