@@ -1,5 +1,5 @@
 <template>
-  <section class="section" id="activities">
+  <section class="section" id="activites">
     <div class="container">
         <div class="has-text-centered">
             <h2 class="title is-2">Nos Activités</h2>
