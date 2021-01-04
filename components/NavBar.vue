@@ -11,7 +11,7 @@
 
         <template slot="end">
             <b-navbar-item class="bt-m" tag="router-link" :to="{ path: '/' }">
-                Acceuil
+                Accueil
             </b-navbar-item>
             <b-navbar-item class="bt-m" href="#activites">
                 Activités

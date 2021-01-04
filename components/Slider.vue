@@ -16,7 +16,7 @@ export default {
         return {
             carousels: [
                 { text: 'Bâtir ensemble la plus grande de communauté de développeurs au Sénégal.', color: 'info' },
-                { text: 'Vulgariser la programmation au partout sur le territoire national.', color: 'info' }
+                { text: 'Vulgariser la programmation partout sur le territoire national.', color: 'info' }
             ]
         }
     }
