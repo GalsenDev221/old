@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <NavBar/>
     <Nuxt />
     <Footer/>
@@ -12,5 +12,10 @@
   }
   body{
     font-family: 'Advent Pro';
+  }
+
+  .wrapper {
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 </style>
