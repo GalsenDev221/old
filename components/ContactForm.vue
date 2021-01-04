@@ -4,7 +4,7 @@
       <div class="columns is-variable is-8 is-tablet">
         <div class="column">
           <h2 class="title is-2">Prendre contact avec nous</h2>
-          <p>Vous pouvez contacter notre équipe se chargera de vous répondre dans les plus brefs délais.</p>
+          <p>Vous pouvez contacter notre équipe, qui se chargera de vous répondre dans les plus brefs délais.</p>
         </div>
         <div class="column">
           <form action="https://getsimpleform.com/messages?form_api_token=435d5cea78cb72201deed237d6dbecdd" method="POST">
