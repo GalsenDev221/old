@@ -5,7 +5,7 @@
             <h2 class="title is-2">Nos Activités</h2>
 
             <p class="subtitle is-5 custom-width mt-2">
-                Voici la liste des différents activités & événements que propose la communauté
+                Voici la liste des différentes activités & événements que propose la communauté
             </p>
         </div>
         <div class="columns is-variable is-8 is-tablet is-multiline">
@@ -37,7 +37,7 @@ export default {
             title: 'Jakaarlo Dev',
             animator: 'Discord',
             thumbImg: 'galsendev.png',
-            coverImg: 'jakaarlo-dev.png',
+            coverImg: 'jakaarlo-dev-min.png',
             description: "Jakaarlo Dev est une session en direct sur Discord durant laquelle un(e) développeur(se) va traiter un sujet en particulier, l'expliquer de manière simple et détaillée à la communauté Galsen Dev.",
           },
           {
@@ -45,7 +45,7 @@ export default {
             title: 'Sunu DEV',
             animator: 'tout nos réseaux sociaux.',
             thumbImg: 'galsendev.png',
-            coverImg: 'sunu-dev.png',
+            coverImg: 'sunu-dev-min.png',
             description: "Le concept est simple, on prend un(e) jeune développeur(se) on le met en vedette dans une publication partagée sur tous nos réseaux, pour montrer ses compétences et ses travaux et le faire découvrir au grand public.",
           },
           {
@@ -53,7 +53,7 @@ export default {
             title: 'Battle DEV',
             animator: 'Discord',
             thumbImg: 'galsendev.png',
-            coverImg: 'battle-dev.png',
+            coverImg: 'battle-dev-min.png',
             description: "Le Battle DEV est un petit tournoi entre développeurs qui se passe sur notre Discord, ou s'affronte deux ou plusieurs développeurs en Live sur un thème particulier, à la fin du duel on choisit par vote le vainqueur de la soirée.",
           },
           {
@@ -61,15 +61,15 @@ export default {
             title: 'QUIZ du Samedi',
             animator: 'Telegram',
             thumbImg: 'galsendev.png',
-            coverImg: 'quiz-du-samedi.png',
-            description: "Le QUIZ du Samedi comme l'indique son nom, est un quiz qui se passe sur le canal Telegram de Galsen Dev, une série de questions sur une technologie donnée entre 20 & 21 heures.",
+            coverImg: 'quiz-du-samedi-min.png',
+            description: "Le QUIZ du Samedi comme l'indique son nom, est un quiz qui se passe sur le canal Telegram de Galsen Dev, une série de questions sur une technologie en particulier entre 20 & 21 heures.",
           },
           {
             id: '5',
             title: 'Live Coding',
             animator: 'Discord',
             thumbImg: 'galsendev.png',
-            coverImg: 'live-coding.png',
+            coverImg: 'live-coding-min.png',
             description: "Durant le Live Coding on prend une technologie on s'exerce dessus en codant en Live sur notre Discord, ca nous permet de revoir les bases et mieux maitriser les concepts.",
           }
         ]
