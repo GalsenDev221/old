@@ -13,10 +13,10 @@
             <b-navbar-item class="bt-m" tag="router-link" :to="{ path: '/' }">
                 Accueil
             </b-navbar-item>
-            <b-navbar-item class="bt-m" href="#activites">
+            <b-navbar-item class="bt-m" tag="router-link" :to="{ path: '/#activites' }" href="/#activites">
                 Activités
             </b-navbar-item>
-            <b-navbar-item class="bt-m" href="#contact">
+            <b-navbar-item class="bt-m" tag="router-link" :to="{ path: '/#contact' }" href="/#contact">
                 Contact
             </b-navbar-item>
         </template>
