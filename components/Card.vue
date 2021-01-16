@@ -24,7 +24,7 @@
           <div>{{eventDesc}}</div>
           <div class="has-text-right mt-5">
               <b-button tag="a"
-                  href="https://www.liinks.co/galsendev221"
+                  :href="(`${eventLink}`)"
                   target="_blank"
                   type="is-info">
                   <span class="mr-2">EN SAVOIR PLUS</span>
@@ -61,6 +61,10 @@ export default {
       type: String,
       required: true
     },
+    eventLink: {
+      type: String,
+      required: true
+    }
   }
 }
 </script>

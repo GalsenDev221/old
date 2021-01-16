@@ -16,6 +16,7 @@
                 :eventThumb="event.thumbImg"
                 :eventCover="event.coverImg"
                 :eventDesc="event.description"
+                :eventLink="event.link"
             />
         </div>
         <div class="has-text-centered mt-6">
@@ -41,6 +42,7 @@ export default {
             thumbImg: 'galsendev.png',
             coverImg: 'jakaarlo-dev-min.png',
             description: "Jakaarlo Dev est une session en direct sur Discord durant laquelle un(e) développeur(se) va traiter un sujet en particulier, l'expliquer de manière simple et détaillée à la communauté Galsen Dev.",
+            link: "https://discord.com/invite/CKZcKqf"
           },
           {
             title: 'Sunu DEV',
@@ -48,6 +50,7 @@ export default {
             thumbImg: 'galsendev.png',
             coverImg: 'sunu-dev-min.png',
             description: "Le concept est simple, on prend un(e) jeune développeur(se) on le met en vedette dans une publication partagée sur tous nos réseaux, pour montrer ses compétences et ses travaux et le faire découvrir au grand public.",
+            link: "https://www.liinks.co/galsendev221"
           },
           {
             title: 'Battle DEV',
@@ -55,6 +58,7 @@ export default {
             thumbImg: 'galsendev.png',
             coverImg: 'battle-dev-min.png',
             description: "Le Battle DEV est un petit tournoi entre développeurs qui se passe sur notre Discord, ou s'affronte deux ou plusieurs développeurs en Live sur un thème particulier, à la fin du duel on choisit par vote le vainqueur de la soirée.",
+            link: "https://discord.com/invite/CKZcKqf"
           }
         ]
       }
