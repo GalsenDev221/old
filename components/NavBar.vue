@@ -24,7 +24,10 @@
 </template>
 
 <style>
-.bt-m{
-    font-weight: bolder;
-}
+    .bt-m{
+        font-weight: bolder;
+    }
+    .navbar{
+        box-shadow: 0 2px 4px 0 rgb(121,87,213,.3);
+    }
 </style>
