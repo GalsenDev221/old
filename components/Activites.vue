@@ -37,6 +37,14 @@ export default {
       return {
         events: [
           {
+            title: 'Made In Senegal',
+            animator: 'le web',
+            thumbImg: 'galsendev.png',
+            coverImg: 'made-in-senegal-min.png',
+            description: "Il s'agit d'une large collection d'outils (frameworks, packages, extensions...) conçus par des développeurs sénégalais et qui peuvent être utilisés par n'importe qui, n'importe où dans le monde entier.",
+            link: "https://madein.galsendev.com"
+          },
+          {
             title: 'Jakaarlo Dev',
             animator: 'Discord',
             thumbImg: 'galsendev.png',
@@ -51,14 +59,6 @@ export default {
             coverImg: 'sunu-dev-min.png',
             description: "Le concept est simple, on prend un(e) jeune développeur(se) on le met en vedette dans une publication partagée sur tous nos réseaux, pour montrer ses compétences et ses travaux et le faire découvrir au grand public.",
             link: "https://www.liinks.co/galsendev221"
-          },
-          {
-            title: 'Battle DEV',
-            animator: 'Discord',
-            thumbImg: 'galsendev.png',
-            coverImg: 'battle-dev-min.png',
-            description: "Le Battle DEV est un petit tournoi entre développeurs qui se passe sur notre Discord, ou s'affronte deux ou plusieurs développeurs en Live sur un thème particulier, à la fin du duel on choisit par vote le vainqueur de la soirée.",
-            link: "https://discord.com/invite/CKZcKqf"
           }
         ]
       }

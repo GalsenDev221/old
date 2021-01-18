@@ -35,12 +35,12 @@ export default {
         events: [
           {
             id: '1',
-            title: 'Jakaarlo Dev',
-            animator: 'Discord',
+            title: 'Made In Senegal',
+            animator: 'le web',
             thumbImg: 'galsendev.png',
-            coverImg: 'jakaarlo-dev-min.png',
-            description: "Jakaarlo Dev est une session en direct sur Discord durant laquelle un(e) développeur(se) va traiter un sujet en particulier, l'expliquer de manière simple et détaillée à la communauté Galsen Dev.",
-            link: "https://discord.com/invite/CKZcKqf"
+            coverImg: 'made-in-senegal-min.png',
+            description: "Il s'agit d'une large collection d'outils (frameworks, packages, extensions...) conçus par des développeurs sénégalais et qui peuvent être utilisés par n'importe qui, n'importe où dans le monde entier.",
+            link: "https://madein.galsendev.com"
           },
           {
             id: '2',
@@ -53,15 +53,24 @@ export default {
           },
           {
             id: '3',
-            title: 'Battle DEV',
+            title: 'Jakaarlo Dev',
             animator: 'Discord',
             thumbImg: 'galsendev.png',
-            coverImg: 'battle-dev-min.png',
-            description: "Le Battle DEV est un petit tournoi entre développeurs qui se passe sur notre Discord, ou s'affronte deux ou plusieurs développeurs en Live sur un thème particulier, à la fin du duel on choisit par vote le vainqueur de la soirée.",
+            coverImg: 'jakaarlo-dev-min.png',
+            description: "Jakaarlo Dev est une session en direct sur Discord durant laquelle un(e) développeur(se) va traiter un sujet en particulier, l'expliquer de manière simple et détaillée à la communauté Galsen Dev.",
             link: "https://discord.com/invite/CKZcKqf"
           },
           {
             id: '4',
+            title: 'Battle DEV',
+            animator: 'Discord',
+            thumbImg: 'galsendev.png',
+            coverImg: 'battle-dev-min.png',
+            description: "Le Battle DEV est un tournoi entre développeurs qui se déroule sur notre Discord, où s'affronte deux ou plusieurs développeurs en Live sur un thème particulier.",
+            link: "https://discord.com/invite/CKZcKqf"
+          },
+          {
+            id: '5',
             title: 'QUIZ du Samedi',
             animator: 'Telegram',
             thumbImg: 'galsendev.png',
@@ -70,7 +79,7 @@ export default {
             link: "https://t.me/galsendev221"
           },
           {
-            id: '5',
+            id: '6',
             title: 'Live Coding',
             animator: 'Discord',
             thumbImg: 'galsendev.png',
