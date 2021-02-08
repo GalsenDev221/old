@@ -19,6 +19,9 @@
             <b-navbar-item class="bt-m" tag="router-link" :to="{ path: '/#contact' }" href="/#contact">
                 Contact
             </b-navbar-item>
+            <b-navbar-item class="bt-m" href="https://ko-fi.com/galsendev221" target="_blank">
+                Faire un don &nbsp;&nbsp; <b-icon pack="fas" icon="donate" size="is-small"></b-icon>
+            </b-navbar-item>
         </template>
     </b-navbar>
 </template>
