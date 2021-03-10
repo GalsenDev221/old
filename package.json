@@ -9,12 +9,12 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "nuxt": "^2.14.5",
-    "nuxt-buefy": "^0.4.3"
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3",
+    "nuxt-buefy": "^0.4.4"
   },
   "devDependencies": {
     "node-sass": "^4.14.1",
-    "sass-loader": "^10.0.2"
+    "sass-loader": "^10.1.1"
   }
 }
