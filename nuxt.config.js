@@ -19,7 +19,7 @@ export default {
       { property:'og:image', content:'https://galsendev.com/static/share.png' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon/favicon.ico' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap" }
     ],
@@ -45,7 +45,20 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/buefy
     'nuxt-buefy',
+    '@nuxtjs/pwa',
   ],
+
+  pwa: {
+    meta: {
+      title: 'Galsen DEV',
+      author: '@galsendevlab',
+    },
+    manifest: {
+      name: 'Galsen Dev | La maison des développeurs sénégalais!',
+      short_name: 'GalsenDEV',
+      lang: 'fr',
+    },
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
