@@ -3,7 +3,7 @@
     <div class="card">
       <div class="card-image">
         <figure class="image is-square">
-            <img :src="require(`~/assets/images/${eventCover}`)" alt="Image de couverture de l'evenement">
+            <img :src="require(`~/assets/images/activities/${eventCover}`)" alt="Image de couverture de l'evenement">
         </figure>
       </div>
 
@@ -11,7 +11,7 @@
         <div class="media">
           <div class="media-left">
             <figure class="image is-48x48">
-              <img :src="require(`~/assets/images/${eventThumb}`)" alt="Image miniature de l'evenement">
+              <img :src="require(`~/assets/images/activities/${eventThumb}`)" alt="Image miniature de l'evenement">
             </figure>
           </div>
           <div class="media-content">
