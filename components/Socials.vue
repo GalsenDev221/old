@@ -28,7 +28,7 @@
           },
           {
             name: 'Discord',
-            link: 'https://discord.com/invite/CKZcKqf',
+            link: 'https://discord.gg/CKZcKqf',
             icon: 'discord'
           },
           {

@@ -3,7 +3,7 @@
     <template slot="brand">
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
         <img
-          src="../assets/images/galsendev.png"
+          src="../assets/images/galsen-dev.webp"
           alt="La maison des développeurs sénégalais!"
         />
       </b-navbar-item>
@@ -46,6 +46,6 @@
   font-weight: bolder;
 }
 .navbar {
-  box-shadow: 0 2px 4px 0 rgb(121, 87, 213, 0.3);
+  box-shadow: 0 1px 2px 0 rgb(0, 74, 173, 0.2);
 }
 </style>
