@@ -33,6 +33,7 @@
         class="bt-m"
         href="https://ko-fi.com/galsendev221"
         target="_blank"
+        rel="noopener"
       >
         Faire un don &nbsp;&nbsp;
         <b-icon pack="fas" icon="donate" size="is-small"></b-icon>
