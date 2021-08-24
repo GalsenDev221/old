@@ -26,6 +26,7 @@
               <b-button tag="a"
                   :href="(`${eventLink}`)"
                   target="_blank"
+                  rel="noopener"
                   type="is-info">
                   <span class="mr-2">EN SAVOIR PLUS</span>
                   <b-icon icon="external-link-alt" size="is-small"></b-icon>

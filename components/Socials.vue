@@ -4,7 +4,7 @@
       <h2 class="title is-2 has-text-centered">Nos Réseaux</h2>
       <nav class="level is-tablet">
         <div v-for="(social, i) in socials" :key="i" class="level-item has-text-centered mt-6">
-          <a :href="social.link" target="_blank">
+          <a :href="social.link" target="_blank" rel="noopener">
             <p class="heading">
               <b-icon pack="fab" :icon="social.icon" custom-size="fa-4x" type="is-grey-dark"></b-icon>
             </p>
