@@ -16,6 +16,14 @@
       <b-navbar-item
         class="bt-m"
         tag="router-link"
+        :to="{ path: '/blog' }"
+        href="/blog"
+      >
+        Blog
+      </b-navbar-item>
+      <b-navbar-item
+        class="bt-m"
+        tag="router-link"
         :to="{ path: '/#activites' }"
         href="/#activites"
       >
