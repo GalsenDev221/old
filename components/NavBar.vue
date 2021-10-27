@@ -1,5 +1,5 @@
 <template>
-  <b-navbar class="navbar is-fixed-top">
+  <b-navbar :fixed-top="true" :shadow="true">
     <template slot="brand">
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
         <img
@@ -49,12 +49,3 @@
     </template>
   </b-navbar>
 </template>
-
-<style>
-.bt-m {
-  font-weight: bolder;
-}
-.navbar {
-  box-shadow: 0 1px 2px 0 rgb(0, 74, 173, 0.2);
-}
-</style>
