@@ -7,13 +7,13 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'Galsen Dev | La maison des développeurs sénégalais!',
+    title: 'Galsen DEV | La maison des développeurs sénégalais!',
     htmlAttrs: { lang: 'fr' },
     meta: [
       // Meta & description tags
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Galsen Dev | La maison des développeurs sénégalais!' },
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Galsen DEV | La maison des développeurs sénégalais!' },
       { name: 'theme-color', content: '#5271FF' },
       { property: 'og:type', content: 'website' },
       { property: 'og:description', content: 'Galsen DEV' },
@@ -76,7 +76,7 @@ export default {
       author: '@galsendevlab',
     },
     manifest: {
-      name: 'Galsen Dev | La maison des développeurs sénégalais!',
+      name: 'Galsen DEV | La maison des développeurs sénégalais!',
       short_name: 'GalsenDEV',
       lang: 'fr',
     },
