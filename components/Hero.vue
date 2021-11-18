@@ -3,9 +3,9 @@
       <div class="container">
         <div class="columns is-vcentered">
           <div class="column is-5">
-            <h2 class="is-size-2">Galsen Dev</h2>
+            <h2 class="is-size-2">Galsen DEV</h2>
             <br/>
-            <p class="is-size-5">Galsen Dev est une communauté qui regroupe les développeurs sénégalais dans le but de mettre en place un écosystème favorable à la création et au partage entre développeurs et de vulgariser la programmation partout au Sénégal.<br>
+            <p class="is-size-5">Galsen DEV est une communauté qui regroupe les développeurs sénégalais dans le but de mettre en place un écosystème favorable à la création et au partage entre développeurs et de vulgariser la programmation partout au Sénégal.<br>
             Nous nous fixons aussi pour objectif d'aider les débutants et les personnes désireux de rejoindre le domaine de la programmation avec diverses activités et événements que nous organisons.
             </p>
           </div>

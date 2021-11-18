@@ -37,7 +37,7 @@ export const state = () => ({
       thumbImg: "galsendev.webp",
       coverImg: "jakaarlo-dev.webp",
       description:
-        "Jakaarlo Dev est une session en direct sur Discord durant laquelle un(e) développeur(se) va traiter un sujet en particulier, l'expliquer de manière simple et détaillée à la communauté Galsen Dev.",
+        "Jakaarlo Dev est une session en direct sur Discord durant laquelle un(e) développeur(se) va traiter un sujet en particulier, l'expliquer de manière simple et détaillée à la communauté Galsen DEV.",
       link: "https://discord.gg/CKZcKqf"
     },
     {
@@ -57,7 +57,7 @@ export const state = () => ({
       thumbImg: "galsendev.webp",
       coverImg: "quiz-du-samedi.webp",
       description:
-        "Le QUIZ du Samedi comme l'indique son nom, est un quiz qui se passe sur le canal Telegram de Galsen Dev, une série de questions sur une technologie en particulier entre 20 & 21 heures.",
+        "Le QUIZ du Samedi comme l'indique son nom, est un quiz qui se passe sur le canal Telegram de Galsen DEV, une série de questions sur une technologie en particulier entre 20 & 21 heures.",
       link: "https://t.me/galsendev221"
     },
   ]

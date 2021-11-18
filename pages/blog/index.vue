@@ -3,9 +3,9 @@
       <div class="container">
         <div class="columns is-vcentered">
           <div class="column is-5">
-            <h2 class="is-size-2">Bienvenue sur le Blog de la communauté Galsen Dev</h2>
+            <h2 class="is-size-2">Bienvenue sur le Blog de la communauté Galsen DEV</h2>
             <br/>
-            <p class="is-size-5">Ce blog est maintenu par la communauté Galsen Dev.<br>
+            <p class="is-size-5">Hello world 🤔<br>
             </p>
           </div>
           <br />
