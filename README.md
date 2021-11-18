@@ -1,6 +1,6 @@
 # Galsen DEV
 
-🚀 The official repository of Galsen DEV website made with 💚💜 Nuxt.js + Buefy
+🚀 The official repository of Galsen DEV website made with Nuxt.js + Buefy
 
 ## Build Setup
 
