@@ -3,40 +3,13 @@
     <template slot="brand">
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
         <img
-          src="../assets/images/galsen-dev.webp"
-          alt="La maison des développeurs sénégalais!"
+          src="../static/galsen-dev.webp"
+          alt="Galsen DEV"
         />
       </b-navbar-item>
     </template>
 
     <template slot="end">
-      <b-navbar-item class="bt-m" tag="router-link" :to="{ path: '/' }">
-        Accueil
-      </b-navbar-item>
-      <b-navbar-item
-        class="bt-m"
-        tag="router-link"
-        :to="{ path: '/blog' }"
-        href="/blog"
-      >
-        Blog
-      </b-navbar-item>
-      <b-navbar-item
-        class="bt-m"
-        tag="router-link"
-        :to="{ path: '/#activites' }"
-        href="/#activites"
-      >
-        Activités
-      </b-navbar-item>
-      <b-navbar-item
-        class="bt-m"
-        tag="router-link"
-        :to="{ path: '/#contact' }"
-        href="/#contact"
-      >
-        Contact
-      </b-navbar-item>
       <b-navbar-item
         class="bt-m"
         href="https://ko-fi.com/galsendev221"

@@ -1,9 +1,11 @@
 <template>
   <footer class="footer">
-  <div class="content has-text-centered">
-    <p>
-      Fait avec 💚💙 par <strong><a href="https://github.com/Galsen-Dev-LAB" target="_blank" rel="noopener">Galsen DEV.</a></strong> | Copyright &copy; 2020-2021, Tous Droits Réservés.
-    </p>
-  </div>
-</footer>
+    <div class="content has-text-centered">
+      <p>
+        <strong>
+          <a href="https://github.com/GalsenDev221" target="_blank" rel="noopener">Galsen DEV</a>
+        </strong>
+      </p>
+    </div>
+  </footer>
 </template>
