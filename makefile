@@ -2,4 +2,4 @@ i :
 	yarn install
 
 r :
-	yarn dev
+	npm run dev
